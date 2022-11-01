@@ -7,6 +7,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+  <style>
+
+    #map {
+   
+       width: 100%;
+   
+       height: 400px;
+   
+       background-color: grey;
+   
+   }
+   
+   </style>
+
 </head>
 <body>
   <nav class="menu">
@@ -118,8 +133,8 @@
 
   <section class="grid-section contato" id="contato">
     <h1 class="titulo">Contato</h1>
-    <div class="mapa">
-      <img src="img/mapa.png">
+    <div class="map" id="map">
+     
     </div>
     <ul class="dados">
       <li>brunaravelli13@gmail.com</li>
@@ -132,6 +147,12 @@
     <p>Todos os direitos reservados.</p>
   </footer>
 
-  <script src="./script.js"></script>  
+  <script async defer
+
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAUOAx3VFyJi8-ha8n1khN1T9nHFmrPlBo">
+
+    </script>
+  <script src="./script.js"></script> 
+ 
 </body>
 </html>
